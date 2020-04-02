@@ -1,0 +1,10 @@
+{
+    "/posts": {
+      "target": "https://gtmetrix.com/api/0.1/",
+      "secure": true,
+      "pathRewrite": {
+      "^/posts": ""
+    },
+      "changeOrigin": true
+    }
+  }
